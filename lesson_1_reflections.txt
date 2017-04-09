@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    Version control allowed me to identify the issues that existed within a file by comparing it 
+    with the source document. If I was to try to identify the issue from memory then it would 
+    have taken much longer to achieve my goal, and probably would not have even found the error 
+    in the first place.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    By having access to the entire documentation history of a project one could quickly see not only
+    how their code has evolved but also how their continuous changes have grown overtime. It becomes
+    easy to track your code efficiency, elements you would once use that you no longer do, or ways 
+    you could improve farther.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in 
+Git, vs having versions automatically saved, like Google Docs does?
+
+    Git seems like an effective form or version control that would allow me to store valuable information
+    for later viewing. One of the only downsides that I can find with Git is that so far I have yet to 
+    find an option for at least some limited auto saving functionality.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+
+    Often when dealing with code languages there are may be cases of object oriented code. If git was 
+    to only collect changes from one file then multiple commits would need to be tracked individually.
+    this could lead to additional errors when looking for trying to find/ make changes for multiple 
+    objects.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log can be used to view the changes that have been made to the Git repository and by extension, 
+    the changes that have been made to the project. When viewing Git log it is important to remember 
+    that the output is viewed as newest to oldest. What this means is that in the list of changes the
+    most recent change will be listed above the previous change. So if a set of code was to be added to 
+    line12ID that was not in line22ID, and the git diff argument was to be written as 
+    [git diff line12ID line22ID] then the output wll show the line added in line12ID as not being in line22ID 
+    and thus a '-' will be shown. If the argument was to be swapped around to be [git diff line22ID line12ID] 
+    then the change will show as a '+' in the output. Comparisons are written as using the 'original' 
+    commit and comparing that to the 'new' commit. [git diff original new]
+
+How might using version control make you more confident to make changes that could break something?
+
+    I wouldnt be excited to go about breaking my code. But it does add some confidence that hours of work 
+    wouldnt be lost to a simple error on my part in a 1000+ line code file.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    My intentions of learning git is that Im getting into android development and would like to learn version 
+    control as this has been pointed out to be one of the more effective ways of maintaining builds of working 
+    versions of an app. That and the fact that it is the accepted standard within almost all software companies.
