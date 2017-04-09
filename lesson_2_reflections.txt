@@ -1,0 +1,13 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    When you initialize a git repository a folder is created in that repository called '.Git' and is hidden from 
+    traditional view. To access this folder you would need to enable view hidden files or folders in either 
+    file explorer or your file manager (OS dependent). While the git folder is created git does not create an initial
+    commit. That is left to the user to define what files, and or folders they want to commit.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+    The staging area acts as an intermediary between the files in the working directory and the commits made to a 
+    repository. This is important as it allows for smaller logical commits to be made as opposed to one large blanketed 
+    commit. This would make it easier to keep track of smaller changes.
+
