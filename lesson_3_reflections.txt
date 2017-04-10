@@ -12,3 +12,15 @@ your remote repository?
     these changes automatically pushed, it allows for an east rollback by pulling the changed file or files from 
     the repository.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+    A fork is the cloning of a repository on Github. This is unique to Github repositories only.
+    Cloning of a repository creates a copy of that repository on a local machine from either another local 
+    repository or an online source.
+    A branch is a a copy of items within a repository making it easy to make changes that can be undone. If the 
+    changes produce the desired effect then it can be added to the main code usually without much effort.
+    When you want to make changes to someone's repository on Github then you should fork it. If you want to make 
+    local changes to a repository then it is best to clone it to your machine. If you want to add a new feature or 
+    fix a bug in your code, then you should create a new branch so you dont introduce or create more bugs in your 
+    main working code. These changes can always be merged or discarded later.
+
