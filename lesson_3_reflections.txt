@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+    It would be useful having a remote repository when looking to backup or dealing with a project that has multiple 
+    persons editing the document. When there is an online repository it becomes easier for persons to make changes 
+    that can then be easily shared with other persons working on the project. Or in the case of a backup it can be 
+    useful to always have a repository to call back to incase something were to happen to the files saved locally.
