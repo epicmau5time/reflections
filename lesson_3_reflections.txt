@@ -4,3 +4,11 @@ When would you want to use a remote repository rather than keeping all your work
     persons editing the document. When there is an online repository it becomes easier for persons to make changes 
     that can then be easily shared with other persons working on the project. Or in the case of a backup it can be 
     useful to always have a repository to call back to incase something were to happen to the files saved locally.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with 
+your remote repository?
+
+    Some changes made locally could have broken some functionality which could have gone unnoticed. By not having 
+    these changes automatically pushed, it allows for an east rollback by pulling the changed file or files from 
+    the repository.
+
