@@ -11,3 +11,24 @@ How is the staging area different from the working directory and the repository?
     repository. This is important as it allows for smaller logical commits to be made as opposed to one large blanketed 
     commit. This would make it easier to keep track of smaller changes.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+    It is useful because it can capture all the changes made to files in your repository without committing them. This is 
+    useful in case the files you made changes to then realise later that they are wrong it is easy to manage before they 
+    are committed. Also if you added files to the staging area and forget to commit them they are saved in this temporary area
+    so that you can return to it later without loosing progress..
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+    I could see branches being useful when testing new functionality to a project. Anything outside of traditional bug fixes 
+    I would test on a new branch so it doesn't affect my core code. This would make it much easier to discard a buggy feature.
+
+How do the diagrams help you visualize the branch structure?
+
+    Diagrams helps to see the parent for various commits within a repository. Because each commit can only be accessed on the 
+    appropriate branch head, it helps to see what commit you can reach from the bach you are on.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+    When merging two branches together it results in the commits from branches being merged, to be integrated together. This 
+    makes the changes appear on a linear graph so to speak. 
