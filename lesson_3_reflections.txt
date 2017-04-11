@@ -24,3 +24,9 @@ Describe the differences between forks, clones, and branches. When would you use
     fix a bug in your code, then you should create a new branch so you dont introduce or create more bugs in your 
     main working code. These changes can always be merged or discarded later.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+    Its useful as it allows you to know what the last state of your repository was. If you have made substantial 
+    changes in your local repository and seek to push them you may create conflicts. This information would allow 
+    you to stage your workflow and see what the last known changes are in the cloud and what is available locally.
+
