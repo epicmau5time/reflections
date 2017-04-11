@@ -30,3 +30,8 @@ What is the benefit of having a copy of the last known state of the remote store
     changes in your local repository and seek to push them you may create conflicts. This information would allow 
     you to stage your workflow and see what the last known changes are in the cloud and what is available locally.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+    Could collaborate by sending the actual files and explain where changes were made. While it is possible to 
+    collaborate without GitHub, it is not as efficient.
+
