@@ -32,6 +32,21 @@ What is the result of merging two branches together? Why do we represent it in t
 
     When merging two branches together it results in the commits from branches being merged, to be integrated together. This 
     makes the changes appear on a linear graph so to speak. 
+    Git merge is a complicated beast. 
+
+    Imagine I have two branches, one 'master' branch and another branch called 'alternate'.
+
+    Scenario 1: I have made changes to alternate branch so that it is ahead of the master branch. If I want to merge those changes 
+                into the master branch then I would need to go onto the alternative branch and run the command
+                [git merge master alternate]  
+                You must checkout the branch with the changes first. So in this case I want to merge the changes from alternate to 
+                master. So the command is saying "I want to merge master to alternate by placing changes into master from alternate"
+
+    Scenario 2: I have made changes to master branch so that it is ahead of the alternate branch but want those changes to go to the 
+                alternate branch. I would need to go onto the master branch and run the command
+                [git merge alternate master]  
+                You must checkout the branch with the changes first. So in this case I want to merge the changes from alternate to 
+                master. So the command is saying "I want to merge alternate to master by placing changes into alternate from master"
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
