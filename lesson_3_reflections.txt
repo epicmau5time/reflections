@@ -35,3 +35,10 @@ How would you collaborate without using Git or GitHub? What would be easier, and
     Could collaborate by sending the actual files and explain where changes were made. While it is possible to 
     collaborate without GitHub, it is not as efficient.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each 
+approach have?
+
+    This would allow for the master branch to remain operational without the risk of having a product or service 
+    experience bugs that could cause disruptions. Changes made on a separate branch, if working as intended, 
+    could be pulled into the master branch when done. All of this would be completed without braking the main branch.
+
